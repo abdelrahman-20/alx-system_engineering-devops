@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# A Script To Display The Clock
+
+hour=0
+
+while [ $hour -le 12 ]
+do
+	sec=1
+
+	echo "Hour: $hour"
+
+	while [ $sec -lt 60 ]
+	do
+		echo "$sec"
+		(( sec++ ))
+	done
+	(( hour++ ))
+done
