@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# A Script To Print 10 Times
+
+counter=0
+
+while [ $counter -lt 10 ]
+do
+	if [ $counter -eq 9 ]
+	then
+		echo "Hi"
+	fi
+        echo "Best School"
+        (( counter++ ))
+done
