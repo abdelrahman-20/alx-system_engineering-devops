@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# A Script To Display The Content of The Folder
+
+for file in *-*; do
+    echo "${file#*-}"
+done
