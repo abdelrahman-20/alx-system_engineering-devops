@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Script To Print Processes
+
+ps -auxf
