@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Script To Display List of Used Ports
+
+netstat -lp
