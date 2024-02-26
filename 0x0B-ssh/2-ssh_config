@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# A Script To Config SSH Connection
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
