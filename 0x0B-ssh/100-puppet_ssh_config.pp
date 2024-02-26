@@ -2,7 +2,7 @@
 # A Script To Use Puppet
 
 file { '/etc/ssh/ssh_config':
-  ensures => present,
+  ensure => present,
 }
 
 file_line { 'Turn off passwd auth':
