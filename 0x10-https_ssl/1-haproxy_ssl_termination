@@ -41,7 +41,7 @@ frontend codingleague-frontend
         default_backend codingleague-backend
 
 frontend codingleague-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/codingleague.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.codingleague.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend codingleague-backend
 
@@ -49,3 +49,4 @@ backend codingleague-backend
         balance roundrobin
         server 429317-web-01 34.229.55.141:80 check
         server 429317-web-02 52.86.105.144:80 check
+
