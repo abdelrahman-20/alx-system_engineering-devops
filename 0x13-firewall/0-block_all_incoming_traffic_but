@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # A Script To Config The Firewall
 
+sudo apt-get update
+
+sudo apt-get install -y ufw
+
 sudo ufw default deny incoming
 
 sudo ufw default allow outgoing
