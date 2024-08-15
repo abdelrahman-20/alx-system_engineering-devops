@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-
-"""Script that queries subscribers"""
+"""
+Script that queries subscribers
+"""
 
 import requests
 
